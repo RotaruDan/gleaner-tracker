@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                              http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                              http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>es.e-ucm.gleaner</groupId>
-		<artifactId>base</artifactId>
+    <parent>
+        <groupId>es.e-ucm.gleaner</groupId>
+        <artifactId>base</artifactId>
         <version>0.3-SNAPSHOT</version>
-		<relativePath>../../</relativePath>
-	</parent>
-	
-	<artifactId>gleaner-tracker</artifactId>
-	<packaging>jar</packaging>
+        <relativePath>../../</relativePath>
+    </parent>
 
-	<dependencies>
-		<!-- GLEANER -->
-		<dependency>
-			<groupId>es.e-ucm.gleaner</groupId>
-			<artifactId>gleaner-network</artifactId>
+    <artifactId>gleaner-tracker</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!-- GLEANER -->
+        <dependency>
+            <groupId>es.e-ucm.gleaner</groupId>
+            <artifactId>gleaner-network</artifactId>
             <version>${project.version}</version>
-		</dependency>
+        </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -29,5 +30,5 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
-	</dependencies>
+    </dependencies>
 </project>
